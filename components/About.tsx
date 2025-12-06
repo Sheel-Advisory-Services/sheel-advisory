@@ -6,13 +6,12 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Image placeholder */}
             <div className="relative">
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-steel-800 to-steel-900 border border-steel-700 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-accent-blue/10 border-2 border-accent-blue/30 flex items-center justify-center">
-                    <span className="text-4xl">👤</span>
-                  </div>
-                  <p className="text-steel-400 text-sm">Professional photo to be added</p>
-                </div>
+              <div className="aspect-square rounded-2xl overflow-hidden border border-steel-700">
+                <img 
+                  src="/profile.png" 
+                  alt="Professional headshot"
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
               {/* Decorative elements */}
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-accent-blue/20 rounded-full blur-2xl"></div>
