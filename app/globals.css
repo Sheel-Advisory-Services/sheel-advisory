@@ -4,18 +4,16 @@
 
 @layer base {
   :root {
-    --background: 10 15 25;
+    --background: 36 59 83;
     --foreground: 248 250 252;
-    --primary: 96 165 250;
-    --accent: 34 211 238;
   }
   
   * {
-    @apply border-steel-800;
+    @apply border-steel-700 dark:border-steel-700;
   }
   
   body {
-    @apply bg-steel-950 text-steel-50;
+    @apply bg-white dark:bg-steel-800 text-steel-900 dark:text-steel-50;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
@@ -41,5 +39,5 @@ html {
 
 /* Selection */
 ::selection {
-  @apply bg-accent-blue/30 text-steel-50;
+  @apply bg-accent-blue/30 text-steel-50 dark:text-steel-50;
 }

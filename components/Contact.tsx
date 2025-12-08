@@ -26,25 +26,25 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-steel-950">
+    <section id="contact" className="py-24 bg-white dark:bg-steel-950">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-              <span className="text-steel-50">Let's Start a</span>{' '}
-              <span className="gradient-text">Conversation</span>
+              <span className="text-steel-500 dark:text-steel-50">Let's</span>{' '}
+              <span className="gradient-text">Chat</span>
             </h2>
-            <p className="text-xl text-steel-400 max-w-2xl mx-auto">
+            <p className="text-xl text-steel-600 dark:text-steel-400 max-w-2xl mx-auto">
               Ready to elevate your project? Get in touch to discuss how we can help achieve your goals.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="p-8 rounded-xl bg-steel-900/50 border border-steel-800/50">
+            <div className="p-8 rounded-xl bg-steel-50 dark:bg-steel-900/50 border border-steel-300 dark:border-steel-800/50">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-steel-300 mb-2">
+                  <label htmlFor="name" className="block text-sm font-medium text-steel-600 dark:text-steel-300 mb-2">
                     Name *
                   </label>
                   <input
@@ -54,12 +54,12 @@ export default function Contact() {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-steel-950 border border-steel-800 rounded-lg text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
+                    className="w-full px-4 py-3 bg-white dark:bg-steel-950 border border-steel-300 dark:border-steel-800 rounded-lg text-steel-900 dark:text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="organization" className="block text-sm font-medium text-steel-300 mb-2">
+                  <label htmlFor="organization" className="block text-sm font-medium text-steel-600 dark:text-steel-300 mb-2">
                     Organization *
                   </label>
                   <input
@@ -69,12 +69,12 @@ export default function Contact() {
                     required
                     value={formData.organization}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-steel-950 border border-steel-800 rounded-lg text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
+                    className="w-full px-4 py-3 bg-white dark:bg-steel-950 border border-steel-300 dark:border-steel-800 rounded-lg text-steel-900 dark:text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-steel-300 mb-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-steel-600 dark:text-steel-300 mb-2">
                     Email *
                   </label>
                   <input
@@ -84,12 +84,12 @@ export default function Contact() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-steel-950 border border-steel-800 rounded-lg text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
+                    className="w-full px-4 py-3 bg-white dark:bg-steel-950 border border-steel-300 dark:border-steel-800 rounded-lg text-steel-900 dark:text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-steel-300 mb-2">
+                  <label htmlFor="phone" className="block text-sm font-medium text-steel-600 dark:text-steel-300 mb-2">
                     Phone
                   </label>
                   <input
@@ -98,12 +98,12 @@ export default function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-steel-950 border border-steel-800 rounded-lg text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
+                    className="w-full px-4 py-3 bg-white dark:bg-steel-950 border border-steel-300 dark:border-steel-800 rounded-lg text-steel-900 dark:text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-steel-300 mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-steel-600 dark:text-steel-300 mb-2">
                     Message *
                   </label>
                   <textarea
@@ -113,13 +113,13 @@ export default function Contact() {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 bg-steel-950 border border-steel-800 rounded-lg text-steel-100 focus:outline-none focus:border-accent-blue transition-colors resize-none"
+                    className="w-full px-4 py-3 bg-white dark:bg-steel-950 border border-steel-300 dark:border-steel-800 rounded-lg text-steel-900 dark:text-steel-100 focus:outline-none focus:border-accent-blue transition-colors"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full px-8 py-4 bg-gradient-to-r from-accent-blue to-accent-cyan rounded-lg text-steel-950 font-semibold hover:shadow-lg hover:shadow-accent-blue/50 transition-all duration-300"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-accent-blue to-accent-cyan rounded-lg text-white font-semibold hover:shadow-lg hover:shadow-accent-blue/50 transition-all duration-300"
                 >
                   Send Message
                 </button>
@@ -129,8 +129,8 @@ export default function Contact() {
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-steel-50 mb-6">Get in Touch</h3>
-                <p className="text-steel-300 leading-relaxed mb-8">
+                <h3 className="text-2xl font-bold text-steel-600 dark:text-steel-50 mb-6">Get in Touch</h3>
+                <p className="text-steel-600 dark:text-steel-400 leading-relaxed mb-8">
                   Whether you're planning a new project or need expert guidance on an ongoing initiative, 
                   we're here to help. Reach out to discuss how Sheel Advisory Services can support your success.
                 </p>
@@ -144,7 +144,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-steel-200 mb-1">Email</h4>
+                    <h4 className="font-semibold text-steel-600 dark:text-steel-200 mb-1">Email</h4>
                     <a href="mailto:csheel@outlook.com" className="text-accent-blue hover:text-accent-cyan transition-colors">
                       csheel@outlook.com
                     </a>
@@ -158,7 +158,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-steel-200 mb-1">Phone</h4>
+                    <h4 className="font-semibold text-steel-600 dark:text-steel-200 mb-1">Phone</h4>
                     <a href="tel:+17785836832" className="text-accent-blue hover:text-accent-cyan transition-colors">
                       1-778-583-6832
                     </a>
@@ -173,15 +173,15 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-steel-200 mb-1">Location</h4>
-                    <p className="text-steel-400">Lake Country, British Columbia</p>
+                    <h4 className="font-semibold text-steel-600 dark:text-steel-200 mb-1">Location</h4>
+                    <p className="text-steel-600 dark:text-steel-400">Lake Country, British Columbia</p>
                   </div>
                 </div>
               </div>
 
               <div className="pt-8 border-t border-steel-800/50">
-                <h4 className="text-sm font-semibold text-steel-400 mb-3">Business Hours</h4>
-                <p className="text-steel-300">Monday - Friday: 9:00 AM - 5:00 PM PST</p>
+                <h4 className="text-sm font-semibold text-steel-600 dark:text-steel-400 mb-3">Business Hours</h4>
+                <p className="text-steel-600 dark:text-steel-400">Monday - Friday: 9:00 AM - 5:00 PM PST</p>
               </div>
             </div>
           </div>

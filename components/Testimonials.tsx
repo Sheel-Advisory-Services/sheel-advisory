@@ -21,14 +21,14 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-steel-950 to-steel-900">
+    <section className="py-24 bg-gradient-to-b from-steel-100 to-steel-50 dark:from-steel-950 dark:to-steel-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             <span className="gradient-text">Client</span>{' '}
-            <span className="text-steel-50">Testimonials</span>
+            <span className="text-steel-500 dark:text-steel-50">Testimonials</span>
           </h2>
-          <p className="text-xl text-steel-400 max-w-2xl mx-auto">
+          <p className="text-xl text-steel-600 dark:text-steel-400 max-w-2xl mx-auto">
             Trusted by leading public sector organizations across British Columbia
           </p>
         </div>
@@ -37,7 +37,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="p-8 rounded-xl bg-steel-900/50 border border-steel-800/50 hover:border-accent-blue/30 transition-all duration-300"
+              className="p-8 rounded-xl bg-white dark:bg-steel-900/50 border border-steel-300 dark:border-steel-800/50 hover:border-accent-blue/30 transition-all duration-300"
             >
               {/* Quote icon */}
               <svg className="w-10 h-10 text-accent-blue/30 mb-4" fill="currentColor" viewBox="0 0 24 24">
@@ -45,14 +45,14 @@ export default function Testimonials() {
               </svg>
 
               {/* Quote */}
-              <p className="text-steel-300 leading-relaxed mb-6 italic">
+              <p className="text-steel-600 dark:text-steel-300 leading-relaxed mb-6 italic">
                 "{testimonial.quote}"
               </p>
 
               {/* Attribution */}
-              <div className="pt-6 border-t border-steel-800/50">
-                <p className="font-semibold text-steel-100">{testimonial.name}</p>
-                <p className="text-sm text-steel-400">{testimonial.title}</p>
+              <div className="pt-6 border-t border-steel-300 dark:border-steel-800/50">
+                <p className="font-semibold text-steel-600 dark:text-steel-100">{testimonial.name}</p>
+                <p className="text-sm text-steel-600 dark:text-steel-400">{testimonial.title}</p>
                 <p className="text-sm text-accent-cyan mt-1">{testimonial.organization}</p>
               </div>
             </div>
