@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { useState } from 'react';
 import ThemeToggle from './ThemeToggle';
 
@@ -15,13 +14,18 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-steel-100/90 dark:bg-steel-950/90 backdrop-blur-md border-b border-steel-300/50 dark:border-steel-800/50">
+    <header className="fixed top-0 w-full z-50 bg-steel-100/90 md:bg-transparent dark:bg-steel-950/90 backdrop-blur-md:backdrop-blur-sm border-b border-steel-300/50 md:border-none dark:border-steel-800/50">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-display font-bold tracking-tight">
-            <span className="gradient-text">Sheel Advisory Services</span>
-          </Link>
+          <div className="flex flex-col leading-none">
+            <span className="text-3xl font-display font-bold tracking-tight text-steel-600 dark:text-steel-100">
+              SAS
+            </span>
+            <span className="text-xs font-medium tracking-wider text-steel-600 dark:text-steel-400">
+              Practical Professional Advice
+            </span>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -30,14 +34,14 @@ export default function Header() {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-steel-700 dark:text-steel-300 hover:text-accent-blue transition-colors duration-200 font-medium"
+                className="text-steel-700 dark:text-steel-300 hover:text-accent-blue dark:hover:text-accent-blue transition-colors duration-200 font-medium"
               >
                 {item.label}
               </a>
             ))}
             <a
               href="#contact"
-              className="px-6 py-2 bg-accent-blue/10 rounded-lg text-accent-blue hover:bg-accent-blue/20 transition-all duration-200 font-medium"
+              className="px-6 py-2 bg-steel-200 dark:bg-steel-800/50 rounded-lg text-steel-700 dark:text-steel-100 font-semibold hover:bg-steel-300 dark:hover:bg-steel-800"
             >
               Get Started
             </a>
@@ -76,7 +80,7 @@ export default function Header() {
             <a
               href="#contact"
               onClick={() => setIsMenuOpen(false)}
-              className="px-6 py-2 bg-accent-blue/10 rounded-lg text-accent-blue hover:bg-accent-blue/20 transition-all duration-200 font-medium"
+              className="px-6 py-2 bg-steel-200 dark:bg-steel-800/50 rounded-lg text-steel-700 dark:text-steel-100 font-semibold hover:bg-steel-300 dark:hover:bg-steel-800"
             >
               Get Started
             </a>
