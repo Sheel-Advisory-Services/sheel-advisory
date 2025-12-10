@@ -14,7 +14,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-steel-100/90 md:bg-transparent dark:bg-steel-950/90 backdrop-blur-md:backdrop-blur-sm border-b border-steel-300/50 md:border-none dark:border-steel-800/50">
+    <header className="fixed top-0 w-full z-50 bg-steel-100/90 md:bg-steel-50/90 dark:bg-steel-950/90 backdrop-blur-md border-b border-steel-300/50 dark:border-steel-800/50">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}

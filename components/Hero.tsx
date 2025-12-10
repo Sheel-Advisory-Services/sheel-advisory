@@ -53,31 +53,33 @@ export default function Hero() {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="bg-steel-50/70 dark:bg-transparent rounded-2xl p-8 md:p-12 border border-steel-300/70 dark:border-transparent">
 
-          {/* Main heading */}
-          <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
-            <span className="text-steel-600 dark:text-steel-50">Sheel Advisory Services</span>
-          </h1>
+            {/* Main heading */}
+            <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
+              <span className="text-steel-600 dark:text-steel-50">Sheel Advisory Services</span>
+            </h1>
 
-          {/* Subheading */}
-          <p className="text-xl md:text-2xl text-steel-600 dark:text-steel-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Helping owners achieve reliable and predictable outcomes.
-          </p>
+            {/* Subheading */}
+            <p className="text-xl md:text-2xl text-steel-600 dark:text-steel-300 mb-12 max-w-2xl mx-auto leading-relaxed">
+              Helping owners achieve reliable and predictable outcomes.
+            </p>
 
-          {/* CTA buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href="#contact"
-              className="px-8 py-4 bg-steel-200 dark:bg-steel-800/50 rounded-lg text-steel-700 dark:text-steel-100 font-semibold hover:bg-steel-300 dark:hover:bg-steel-800 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-steel-400/50"
-            >
-              Start Your Project
-            </a>
-            <a
-              href="#services"
-              className="px-8 py-4 bg-steel-200 dark:bg-steel-800/50 rounded-lg text-steel-700 dark:text-steel-100 font-semibold hover:bg-steel-300 dark:hover:bg-steel-800 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-steel-400/50"
-            >
-              Explore Services
-            </a>
+            {/* CTA buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                href="#contact"
+                className="px-8 py-4 bg-steel-200 dark:bg-steel-800/50 rounded-lg text-steel-700 dark:text-steel-100 font-semibold hover:bg-steel-300 dark:hover:bg-steel-800 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-steel-400/50"
+              >
+                Start Your Project
+              </a>
+              <a
+                href="#services"
+                className="px-8 py-4 bg-steel-200 dark:bg-steel-800/50 rounded-lg text-steel-700 dark:text-steel-100 font-semibold hover:bg-steel-300 dark:hover:bg-steel-800 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-steel-400/50"
+              >
+                Explore Services
+              </a>
+            </div>
           </div>
         </div>
       </div>
