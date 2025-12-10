@@ -8,7 +8,7 @@ export default function Hero() {
 
       {/* Background image - light mode only */}
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-20 dark:hidden"
+        className="absolute inset-0 bg-cover bg-center opacity-30 dark:hidden"
         style={{ 
           backgroundImage: 'url(/handshake.jpg)',
           backgroundPosition: 'center 20%'
@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="absolute top-[20%] left-[45%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/20">
           Fair
         </div>
-        <div className="absolute top-[12%] right-[18%] text-4xl font-bold text-steel-300/40 dark:text-steel-700/20">
+        <div className="absolute top-[12%] right-[18%] text-4xl font-bold text-steel-300/50 dark:text-steel-700/20">
           Transparent
         </div>
         
@@ -40,20 +40,20 @@ export default function Hero() {
         </div>
         
         {/* Bottom row */}
-        <div className="absolute bottom-[18%] left-[20%] text-6xl font-bold text-steel-300/45 dark:text-steel-700/20">
+        <div className="absolute bottom-[18%] left-[20%] text-6xl font-bold text-steel-300/50 dark:text-steel-700/20">
           Experience
         </div>
-        <div className="absolute bottom-[15%] right-[15%] text-6xl font-bold text-steel-300/45 dark:text-steel-700/20">
+        <div className="absolute bottom-[15%] right-[15%] text-6xl font-bold text-steel-300/50 dark:text-steel-700/20">
           Promising
         </div>
-        <div className="absolute bottom-[20%] left-[45%] text-5xl font-bold text-steel-300/45 dark:text-steel-700/25">
+        <div className="absolute bottom-[20%] left-[45%] text-5xl font-bold text-steel-300/50 dark:text-steel-700/25">
           Accountable
         </div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-steel-50/70 dark:bg-transparent rounded-2xl p-8 md:p-12 border border-steel-300/70 dark:border-transparent">
+          <div className="bg-gradient-to-b from-white/70 to-steel-200/90 dark:from-transparent dark:to-transparent dark:bg-transparent rounded-2xl p-8 md:p-10 border border-steel-300/50 dark:border-transparent">
 
             {/* Main heading */}
             <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
