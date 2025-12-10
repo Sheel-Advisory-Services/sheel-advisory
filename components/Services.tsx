@@ -1,15 +1,5 @@
 export default function Services() {
-  const services = [
-    {
-      title: "Owner Representative Services",
-      description: "Acting as your advocate throughout the project lifecycle, ensuring your interests are protected and objectives are met with precision and accountability.",
-      features: [
-        "Project scope development and refinement",
-        "Stakeholder coordination and communication",
-        "Budget oversight and cost management",
-        "Quality assurance and compliance monitoring"
-      ]
-    },
+  const otherServices = [
     {
       title: "Project Management Strategies",
       description: "Comprehensive project planning and execution frameworks tailored to public sector requirements and constraints.",
@@ -31,8 +21,20 @@ export default function Services() {
       ]
     },
     {
-      title: "Procurement & Contract Management",
-      description: "Expert guidance through complex procurement processes ensuring compliance, value, and transparency in public sector contracting.",
+      title: "Procurement Management",
+      description: (
+        <>
+          Expert guidance ensuring compliance, value, and transparency in public sector contracting. Provided through{' '}
+          <a 
+            href="https://pryceadvisory.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-accent-blue hover:text-accent-cyan transition-colors underline"
+          >
+            Pryce Advisory Services
+          </a>.
+        </>
+      ),
       features: [
         "Procurement strategy development",
         "RFP/RFQ preparation and management",
@@ -45,18 +47,19 @@ export default function Services() {
   return (
     <section id="services" className="py-24 bg-white dark:bg-steel-950">
       <div className="container mx-auto px-6">
+        {/* Owner Representative Services */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-            <span className="gradient-text">Service Areas</span>{' '}
-            <span className="text-steel-500 dark:text-steel-50">We Specialize In</span>
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 text-steel-600 dark:text-steel-50">
+            Owner Representative Services
           </h2>
-          <p className="text-xl text-steel-700 dark:text-steel-400 max-w-2xl mx-auto">
-            From planning strategy to project delivery, we provide comprehensive support for your most critical projects
+          <p className="text-xl text-steel-600 dark:text-steel-400 max-w-2xl mx-auto">
+            Comprehensive support, communication and coordination, from planning strategy to delivery.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {services.map((service, index) => (
+        {/* Other Services */}
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          {otherServices.map((service, index) => (
             <div
               key={index}
               className="group p-8 rounded-xl bg-gradient-to-br from-steel-50 to-white dark:from-steel-900/50 dark:to-steel-900/30 border border-steel-200 dark:border-steel-800/50 hover:border-accent-blue/30 transition-all duration-300"
@@ -64,7 +67,7 @@ export default function Services() {
               <h3 className="text-2xl font-bold text-steel-600 dark:text-steel-100 mb-4 group-hover:text-accent-blue transition-colors">
                 {service.title}
               </h3>
-              <p className="text-steel-600 dark:text-steel-400 mb-6 leading-relaxed">
+              <p className="text-steel-600 dark:text-steel-300 mb-6 leading-relaxed">
                 {service.description}
               </p>
               <ul className="space-y-3">
