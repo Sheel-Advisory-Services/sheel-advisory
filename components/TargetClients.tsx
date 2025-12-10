@@ -10,7 +10,7 @@ export default function TargetClients() {
     {
       title: "Regional Districts",
       description: "Strategic guidance for multi-jurisdictional projects requiring coordination across communities.",
-      slug: "school-districts"
+      slug: "regional-districts"
     },
     {
       title: "School Districts",
@@ -25,7 +25,7 @@ export default function TargetClients() {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-steel-50 to-steel-100 dark:from-steel-950 dark:to-steel-900">
+    <section id="clients" className="py-24 bg-gradient-to-b from-steel-50 to-steel-100 dark:from-steel-950 dark:to-steel-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
