@@ -1,11 +1,11 @@
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-gradient-to-b from-steel-100 to-steel-50 dark:from-steel-900 dark:to-steel-950">
+    <section id="about" className="py-24 bg-white dark:bg-steel-950">
       <div className="container mx-auto px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className=" mx-auto">
+          <div className="grid md:grid-cols-[300px_1fr] gap-16 items-center">
             {/* Image */}
-            <div className="relative max-w-xs opacity-80 mx-auto">
+            <div className="relative max-w-xs opacity-80 mx-auto self-start mt-0">
               <div className="aspect-square rounded-2xl overflow-hidden border border-steel-300 dark:border-steel-700">
                 <img 
                   src="/profile.png" 
@@ -21,43 +21,45 @@ export default function About() {
             {/* Content */}
             <div>
               <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
-                <span className="text-steel-600 dark:text-steel-50">About</span>{' '}
-                <span className="gradient-text">Sheel Advisory</span>
+                <span className="text-steel-600 dark:text-steel-50">About Sheel Advisory</span>{' '}
               </h2>
-              
+              <p className="text-lg text-steel-700 dark:text-steel-400 mb-6">
+                Chris Sheel, NISCL-CSCL, MCIPS, PMP, CRM
+              </p>             
               <div className="space-y-4 text-steel-600 dark:text-steel-300 leading-relaxed">
                 <p>
-                  [Placeholder: Add professional biography highlighting experience in project and risk management, 
-                  specific expertise in owner representative services, and track record with public sector clients.]
+                  Chris Sheel is the founder and principal consultant of Sheel Advisory, bringing over 25 years of expertise in procurement, contract management, and project delivery. His career spans diverse sectors including public infrastructure, healthcare, education, and technology, where he has successfully led complex projects from inception to completion.
                 </p>
                 <p>
-                  [Placeholder: Include educational background, professional certifications, and years of experience 
-                  serving municipalities, regional districts, school districts, and non-profit organizations.]
-                </p>
-                <p>
-                  [Placeholder: Describe approach to client relationships, commitment to transparency and reliability, 
-                  and what makes the advisory services unique in the marketplace.]
+                  With a growing body of knowledge and appreciation for collaborative project delivery, Chris brings deep understanding of public sector compliance to every engagement. He delivers informed advice on procurement policy, trade agreements, and contract management strategy, ensuring organizations achieve their objectives while maintaining full regulatory compliance.
                 </p>
               </div>
 
               {/* Credentials highlights */}
-              <div className="grid grid-cols-2 gap-4 mt-8">
-                <div className="p-4 rounded-lg bg-steel-100 dark:bg-steel-900/50 border border-steel-300 dark:border-steel-800/50">
-                  <div className="text-2xl font-bold text-steel-600 dark:text-accent-blue mb-1">25+</div>
-                  <div className="text-sm text-steel-600 dark:text-steel-400">Years Experience</div>
+              <div className="grid grid-cols-3 gap-4 mt-8">
+                <div className="p-4 rounded-lg bg-steel-100 dark:bg-steel-900/50 border border-steel-300 dark:border-steel-800/50 flex items-center gap-3">
+                  <div className="text-3xl font-bold text-steel-700 dark:text-accent-blue">25+</div>
+                  <div className="text-sm text-steel-600 dark:text-steel-400 tracking-wide">Years Experience</div>
                 </div>
-                <div className="p-4 rounded-lg bg-steel-100 dark:bg-steel-900/50 border border-steel-300 dark:border-steel-800/50">
-                  <div className="text-2xl font-bold text-steel-600 dark:text-accent-blue mb-1">1000+</div>
-                  <div className="text-sm text-steel-600 dark:text-steel-400">Projects Completed</div>
+                <div className="p-4 rounded-lg bg-steel-100 dark:bg-steel-900/50 border border-steel-300 dark:border-steel-800/50 flex items-center gap-3">
+                  <div className="text-3xl font-bold text-steel-700 dark:text-accent-blue">500+</div>
+                  <div className="text-sm text-steel-600 dark:text-steel-400 tracking-wide">Projects Completed</div>
+                </div>
+                <div className="p-4 rounded-lg bg-steel-100 dark:bg-steel-900/50 border border-steel-300 dark:border-steel-800/50 flex items-center gap-3">
+                  <div className="text-3xl font-bold text-steel-700 dark:text-accent-blue">BC</div>
+                  <div className="text-sm text-steel-600 dark:text-steel-400 tracking-wide">Province-Wide Service</div>
                 </div>
               </div>
 
-              {/* Professional affiliations placeholder */}
+              {/* Professional certifications */}
               <div className="mt-8 pt-8 border-t border-steel-300 dark:border-steel-800/50">
-                <h4 className="text-sm font-semibold text-steel-600 dark:text-steel-400 mb-3">Professional Affiliations</h4>
-                <div className="text-steel-600 dark:text-steel-500 text-sm">
-                  [Add professional certifications, memberships, and affiliations]
-                </div>
+                <h4 className="text-sm font-semibold text-steel-700 dark:text-steel-400 mb-3">Professional Certifications</h4>
+                <ul className="space-y-2 text-steel-600 dark:text-steel-500 text-sm">
+                  <li><strong>NISCL-CSCL</strong> - National Institute of Supply Chain Leaders - Certified Supply Chain Leader</li>
+                  <li><strong>MCIPS</strong> - Member of the Chartered Institute of Procurement & Supply</li>
+                  <li><strong>PMP</strong> - Project Management Professional</li>
+                  <li><strong>CRM</strong> - Canadian Risk Manager</li>
+                </ul>
               </div>
             </div>
           </div>
