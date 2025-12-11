@@ -1,4 +1,4 @@
-export default function Insights() {
+export default function Props() {
   const articles = [
     {
       title: "[Article Title Placeholder]",
@@ -34,12 +34,11 @@ export default function Insights() {
   ];
 
   return (
-    <section id="insights" className="py-24 bg-white dark:bg-steel-950">
+    <section id="props" className="py-24 bg-white dark:bg-steel-950">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-            <span className="text-steel-500 dark:text-steel-50">Insights &</span>{' '}
-            <span className="gradient-text">Recognition</span>
+            <span className="text-steel-700 dark:text-steel-50">Podcast & Props</span>
           </h2>
           <p className="text-xl text-steel-600 dark:text-steel-400 max-w-2xl mx-auto">
             Thought leadership, industry recognition, and ongoing conversations about project excellence

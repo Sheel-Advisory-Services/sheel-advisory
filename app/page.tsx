@@ -3,7 +3,7 @@ import Hero from '@/components/Hero';
 import TargetClients from '@/components/TargetClients';
 import Services from '@/components/Services';
 import About from '@/components/About';
-import Insights from '@/components/Insights';
+import Props from '@/components/Props';
 import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -16,7 +16,7 @@ export default function Home() {
       <Services />
       <TargetClients />
       <About />
-      <Insights />
+      <Props />
       <Testimonials />
       <Contact />
       <Footer />

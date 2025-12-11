@@ -44,7 +44,7 @@ sheel-advisory/
 │   ├── TargetClients.tsx   # Who you serve
 │   ├── Services.tsx        # Services offered
 │   ├── About.tsx           # About section
-│   ├── Insights.tsx        # Articles, awards, podcast
+│   ├── Props.tsx           # Articles, awards, podcast
 │   ├── Testimonials.tsx    # Client testimonials
 │   ├── Contact.tsx         # Contact form
 │   └── Footer.tsx          # Site footer
