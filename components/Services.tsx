@@ -53,7 +53,7 @@ export default function Services() {
             Owner Representative Services
           </h2>
           <p className="text-xl text-steel-600 dark:text-steel-400 max-w-2xl mx-auto">
-            Comprehensive support, communication and coordination, from planning strategy to delivery.
+            Comprehensive support, communication and coordination, from planning strategy to delivery
           </p>
         </div>
 

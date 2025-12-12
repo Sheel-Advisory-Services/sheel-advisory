@@ -31,11 +31,10 @@ export default function Contact() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-              <span className="text-steel-500 dark:text-steel-50">Let's</span>{' '}
-              <span className="gradient-text">Chat</span>
+              <span className="text-steel-700 dark:text-steel-50">Let's Talk About It</span>
             </h2>
             <p className="text-xl text-steel-600 dark:text-steel-400 max-w-2xl mx-auto">
-              Ready to elevate your project? Get in touch to discuss how we can help achieve your goals.
+              Ready to elevate your project? <br/>Get in touch to discuss how we can help achieve your goals.
             </p>
           </div>
 
@@ -119,7 +118,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full px-8 py-4 bg-gradient-to-r from-accent-blue to-accent-cyan rounded-lg text-white font-semibold hover:shadow-lg hover:shadow-accent-blue/50 transition-all duration-300"
+                  className="w-full px-8 py-4 bg-steel-200 dark:bg-steel-800/50 rounded-lg text-steel-700 dark:text-steel-100 font-semibold hover:bg-steel-300 dark:hover:bg-steel-800 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-steel-400/50"
                 >
                   Send Message
                 </button>

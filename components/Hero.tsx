@@ -62,7 +62,7 @@ export default function Hero() {
 
             {/* Subheading */}
             <p className="text-xl md:text-2xl text-steel-600 dark:text-steel-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Helping owners achieve reliable and predictable outcomes.
+              Helping owners achieve reliable and predictable outcomes
             </p>
 
             {/* CTA buttons */}
