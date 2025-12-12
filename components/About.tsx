@@ -55,10 +55,26 @@ export default function About() {
               <div className="mt-8 pt-8 border-t border-steel-300 dark:border-steel-800/50">
                 <h4 className="text-sm font-semibold text-steel-700 dark:text-steel-400 mb-3">Professional Certifications</h4>
                 <ul className="space-y-2 text-steel-600 dark:text-steel-500 text-sm">
-                  <li><strong>NISCL-CSCL</strong> - National Institute of Supply Chain Leaders - Certified Supply Chain Leader</li>
-                  <li><strong>MCIPS</strong> - Member of the Chartered Institute of Procurement & Supply</li>
-                  <li><strong>PMP</strong> - Project Management Professional</li>
-                  <li><strong>CRM</strong> - Canadian Risk Manager</li>
+                  <li>
+                    <a href="https://niscl.ca/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue transition-colors">
+                      <strong>NISCL-CSCL</strong> - National Institute of Supply Chain Leaders - Certified Supply Chain Leader
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.cips.org/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue transition-colors">
+                      <strong>MCIPS</strong> - Member of the Chartered Institute of Procurement & Supply
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.pmi.org/certifications/project-management-pmp" target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue     transition-colors">
+                      <strong>PMP</strong> - Project Management Professional
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.rims.org/education/professional-designations/crm/about" target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue transition-colors">
+                      <strong>CRM</strong> - Canadian Risk Manager
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
