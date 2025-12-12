@@ -36,7 +36,7 @@ export default function About() {
               </div>
 
               {/* Credentials highlights */}
-              <div className="grid grid-cols-3 gap-4 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                 <div className="p-4 rounded-lg bg-steel-100 dark:bg-steel-900/50 border border-steel-300 dark:border-steel-800/50 flex items-center gap-3">
                   <div className="text-3xl font-bold text-steel-700 dark:text-accent-blue">25+</div>
                   <div className="text-sm text-steel-600 dark:text-steel-400 tracking-wide">Years Experience</div>
