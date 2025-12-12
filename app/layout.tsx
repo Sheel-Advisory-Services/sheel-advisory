@@ -16,7 +16,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "Sheel Advisory Services | Project & Risk Management Excellence",
+  title: "Sheel Advisory | Owner Representative Services BC",
   description: "Expert owner representative services for municipalities, regional districts, school districts, and non-profits. Reliable promising project and risk management strategies.",
   keywords: "project management, risk management, owner representative, municipalities, public sector consulting",
 };
