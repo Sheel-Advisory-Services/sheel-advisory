@@ -1,28 +1,39 @@
-import Link from 'next/link';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Link from "next/link";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Municipalities | SAS",
-  description: "Owner representative services for municipalities across British Columbia. Expert project and risk management for urban development and infrastructure.",
+  description:
+    "Owner representative services for municipalities across British Columbia. Expert project and risk management for urban development and infrastructure."
 };
 
 export default function MunicipalitiesPage() {
   return (
     <main className="min-h-screen">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="pt-32 pb-16 bg-white dark:bg-steel-950">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             {/* Breadcrumb */}
-            <Link 
-              href="/#clients" 
+            <Link
+              href="/#clients"
               className="inline-flex items-center text-steel-600 dark:text-steel-300 hover:text-accent-cyan dark:hover:text-accent-cyan mb-8 transition-colors"
             >
-              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              <svg
+                className="w-4 h-4 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                />
               </svg>
               Back to Organizations We Serve
             </Link>
@@ -46,10 +57,25 @@ export default function MunicipalitiesPage() {
                 </h2>
                 <div className="prose prose-lg dark:prose-invert">
                   <p className="text-steel-600 dark:text-steel-300 leading-relaxed mb-4">
-                    SAS assists public owners in bringing experience and third-party consistency to public projects. We represent the interests of public owners and deliver positive project outcomes.
+                    SAS assists public owners in bringing experience
+                    and third-party consistency to public projects. We
+                    represent the interests of public owners and
+                    deliver positive project outcomes.
                   </p>
                   <p className="text-steel-600 dark:text-steel-300 leading-relaxed">
-                    Cities are administered and governed by the same sets of rules and regulations in British Columbia. The circumstances regarding populations, tax revenue and infrastructure conditions can vary widely. Many municipalities are too small to have economies of scale but are large enough to encounter complex issues and require good solutions. For others, rapid growth or change occurs and City's struggle to maintain qualified staffing and capacity for time sensitive, effective project delivery. SAS provides responsive professional services that deliver consistent and predictable results.
+                    Cities are administered and governed by the same
+                    sets of rules and regulations in British Columbia.
+                    The circumstances regarding populations, tax
+                    revenue and infrastructure conditions can vary
+                    widely. Many municipalities are too small to have
+                    economies of scale but are large enough to
+                    encounter complex issues and require good
+                    solutions. For others, rapid growth or change
+                    occurs and City's struggle to maintain qualified
+                    staffing and capacity for time sensitive,
+                    effective project delivery. SAS provides
+                    responsive professional services that deliver
+                    consistent and predictable results.
                   </p>
                 </div>
               </div>
@@ -65,7 +91,9 @@ export default function MunicipalitiesPage() {
                       Independent 3rd-Party Subject Review
                     </h3>
                     <p className="text-steel-600 dark:text-steel-300">
-                      Objective evaluation and expert analysis to ensure project alignment with organizational goals and industry best practices.
+                      Objective evaluation and expert analysis to
+                      ensure project alignment with organizational
+                      goals and industry best practices.
                     </p>
                   </div>
                   <div className="p-6 rounded-xl bg-white dark:bg-steel-800/50 border border-steel-300 dark:border-steel-700">
@@ -73,7 +101,9 @@ export default function MunicipalitiesPage() {
                       Public Owners' Representative Role
                     </h3>
                     <p className="text-steel-600 dark:text-steel-300">
-                      Dedicated representation of municipal interests throughout project delivery, ensuring accountability and alignment.
+                      Dedicated representation of municipal interests
+                      throughout project delivery, ensuring
+                      accountability and alignment.
                     </p>
                   </div>
                   <div className="p-6 rounded-xl bg-white dark:bg-steel-800/50 border border-steel-300 dark:border-steel-700">
@@ -81,7 +111,9 @@ export default function MunicipalitiesPage() {
                       Project Delivery Model Matching
                     </h3>
                     <p className="text-steel-600 dark:text-steel-300">
-                      Strategic selection and implementation of the optimal project delivery approach for your specific needs and constraints.
+                      Strategic selection and implementation of the
+                      optimal project delivery approach for your
+                      specific needs and constraints.
                     </p>
                   </div>
                   <div className="p-6 rounded-xl bg-white dark:bg-steel-800/50 border border-steel-300 dark:border-steel-700">
@@ -89,7 +121,9 @@ export default function MunicipalitiesPage() {
                       Project Budgeting and Phase Planning
                     </h3>
                     <p className="text-steel-600 dark:text-steel-300">
-                      Comprehensive financial planning and phased approach development to ensure project feasibility and success.
+                      Comprehensive financial planning and phased
+                      approach development to ensure project
+                      feasibility and success.
                     </p>
                   </div>
                 </div>
@@ -102,7 +136,8 @@ export default function MunicipalitiesPage() {
                     Ready to Start Your Project?
                   </h3>
                   <p className="text-steel-600 dark:text-steel-300 mb-6">
-                    Let's discuss how we can support your municipality's goals.
+                    Let's discuss how we can support your
+                    municipality's goals.
                   </p>
                   <Link
                     href="/#contact"
