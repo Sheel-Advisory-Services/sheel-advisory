@@ -24,7 +24,7 @@ export default function Services() {
       title: "Procurement Management",
       description: (
         <>
-          Expert guidance ensuring compliance, value, and transparency in public sector contracting. Provided through{' '}
+          Expert guidance ensuring compliance, transparency, and best value in public sector contracting. Provided through{' '}
           <a 
             href="https://pryceadvisory.com" 
             target="_blank" 

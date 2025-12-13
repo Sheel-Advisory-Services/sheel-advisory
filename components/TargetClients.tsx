@@ -19,7 +19,7 @@ export default function TargetClients() {
     },
     {
       title: "Non-Profit Organizations",
-      description: "Cost-effective project delivery and grant writing tailored to mission-driven budgets.",
+      description: "Grant writing services and cost-effective project delivery tailored to mission-driven budgets.",
       slug: "non-profits"
     }
   ];

@@ -74,7 +74,7 @@ export default function Contact() {
               </span>
             </h2>
             <p className="text-xl text-steel-600 dark:text-steel-400 max-w-2xl mx-auto">
-              Ready to elevate your project? <br />
+              Ready to progress your project? <br />
               Get in touch to discuss how we can help achieve your
               goals.
             </p>

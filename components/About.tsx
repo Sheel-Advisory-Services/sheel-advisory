@@ -28,7 +28,7 @@ export default function About() {
               </p>             
               <div className="space-y-4 text-steel-600 dark:text-steel-300 leading-relaxed">
                 <p>
-                  Chris Sheel is the founder and principal consultant of Sheel Advisory, bringing over 25 years of expertise in procurement, contract management, and project delivery. His career spans diverse sectors including public infrastructure, healthcare, education, and technology, where he has successfully led complex projects from inception to completion.
+                  Chris Sheel is the founder and principal consultant of Sheel Advisory, bringing over 25 years of expertise in procurement, contract management, and project delivery. His career spans diverse sectors including public infrastructure, healthcare, education, transportation, and technology, where he has successfully led complex projects from inception to completion.
                 </p>
                 <p>
                   With a growing body of knowledge and appreciation for collaborative project delivery, Chris brings deep understanding of public sector compliance to every engagement. He delivers informed advice on procurement policy, trade agreements, and contract management strategy, ensuring organizations achieve their objectives while maintaining full regulatory compliance.
@@ -53,7 +53,7 @@ export default function About() {
 
               {/* Professional certifications */}
               <div className="mt-8 pt-8 border-t border-steel-300 dark:border-steel-800/50">
-                <h4 className="text-sm font-semibold text-steel-700 dark:text-steel-400 mb-3">Professional Certifications</h4>
+                <h4 className="text-base font-bold text-steel-700 dark:text-steel-300 mb-3">Professional Certifications</h4>
                 <ul className="space-y-2 text-steel-600 dark:text-steel-500 text-sm">
                   <li>
                     <a href="https://niscl.ca/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue transition-colors">
