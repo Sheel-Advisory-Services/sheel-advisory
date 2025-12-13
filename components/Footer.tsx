@@ -5,15 +5,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-display font-bold gradient-text mb-4">
+            <h3 className="text-2xl font-display font-bold mb-4 text-steel-700 dark:text-steel-50">
               Sheel Advisory Services
             </h3>
             <p className="text-steel-600 dark:text-steel-400 leading-relaxed mb-4">
-              Expert owner representative services for project and risk management excellence 
-              in the public sector.
-            </p>
-            <p className="text-sm text-steel-700 dark:text-steel-500">
-              Reliable Promising Results
+              Practical owner representative services for BC's public sector.
             </p>
           </div>
 
@@ -22,22 +18,22 @@ export default function Footer() {
             <h4 className="font-semibold text-steel-600 dark:text-steel-300 mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#services" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue transition-colors">
+                <a href="#services" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue transition-colors">
+                <a href="#about" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">
                   About
                 </a>
               </li>
               <li>
-                <a href="#props" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue transition-colors">
+                <a href="#props" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">
                   Podcast
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue transition-colors">
+                <a href="#contact" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">
                   Contact
                 </a>
               </li>
@@ -48,10 +44,10 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-steel-600 dark:text-steel-300 mb-4">Services</h4>
             <ul className="space-y-2 text-steel-600 dark:text-steel-400 text-sm">
-              <li>Owner Representative</li>
-              <li>Project Management</li>
-              <li>Risk Management</li>
-              <li>Procurement</li>
+              <li><a href="/municipalities" className= "text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">Municipalities</a></li>
+              <li><a href="/regional-districts" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">Regional Districts</a></li>
+              <li><a href="/school-districts" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">School Districts</a></li>
+              <li><a href="/non-profits" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">Non-Profits</a></li>
             </ul>
           </div>
         </div>
@@ -61,14 +57,6 @@ export default function Footer() {
           <p className="text-steel-600 dark:text-steel-500 text-sm">
             © {new Date().getFullYear()} Sheel Advisory Services. All rights reserved.
           </p>
-          <div className="flex space-x-6">
-            <a href="#" className="text-steel-600 dark:text-steel-500 hover:text-accent-blue transition-colors text-sm">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-steel-600 dark:text-steel-500 hover:text-accent-blue transition-colors text-sm">
-              Terms of Service
-            </a>
-          </div>
         </div>
       </div>
     </footer>
