@@ -236,10 +236,10 @@ export default function Contact() {
                       Email
                     </h4>
                     <a
-                      href="mailto:csheel@outlook.com"
+                      href="mailto:chris@sheeladvisory.ca"
                       className="text-accent-blue hover:text-accent-cyan transition-colors"
                     >
-                      csheel@outlook.com
+                      chris@sheeladvisory.ca
                     </a>
                   </div>
                 </div>
