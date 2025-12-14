@@ -1,3 +1,4 @@
+import PasswordGate from "@/components/PasswordGate";
 import type { Metadata } from "next";
 import { Inter, Urbanist } from "next/font/google";
 import "./globals.css";
@@ -16,7 +17,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sheeladvisory.ca'),
+  metadataBase: new URL("https://sheeladvisory.ca"),
   title: "Sheel Advisory | Owner Representative Services BC",
   description:
     "Expert owner representative services for municipalities, regional districts, school districts, and non-profits. Reliable promising project and risk management strategies.",
@@ -46,7 +47,9 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${urbanist.variable}`}
     >
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        <PasswordGate>{children}</PasswordGate>
+      </body>
     </html>
   );
 }
