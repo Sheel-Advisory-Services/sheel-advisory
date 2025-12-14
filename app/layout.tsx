@@ -16,7 +16,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sheel-advisory.vercel.app'),
+  metadataBase: new URL('https://sheeladvisory.ca'),
   title: "Sheel Advisory | Owner Representative Services BC",
   description:
     "Expert owner representative services for municipalities, regional districts, school districts, and non-profits. Reliable promising project and risk management strategies.",
