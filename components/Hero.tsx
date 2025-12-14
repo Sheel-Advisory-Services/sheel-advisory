@@ -21,32 +21,32 @@ export default function Hero() {
       {/* Floating words background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none select-none">
         {/* Top row */}
-        <div className="absolute top-[15%] left-[15%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/20">
+        <div className="hidden md:block absolute top-[15%] left-[15%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/20">
           Reliable
         </div>
-        <div className="absolute top-[20%] left-[45%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/20">
+        <div className="hidden md:block absolute top-[20%] left-[45%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/20">
           Fair
         </div>
-        <div className="absolute top-[12%] right-[18%] text-4xl font-bold text-steel-300/50 dark:text-steel-700/20">
+        <div className="hidden md:block absolute top-[12%] right-[18%] text-4xl font-bold text-steel-300/50 dark:text-steel-700/20">
           Transparent
         </div>
         
         {/* Middle sides */}
-        <div className="absolute top-[35%] left-[8%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/20">
+        <div className="hidden md:block absolute top-[35%] left-[8%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/20">
           Practical
         </div>
-        <div className="absolute top-[38%] right-[10%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/25">
+        <div className="hidden md:block absolute top-[38%] right-[10%] text-5xl font-bold text-steel-300/40 dark:text-steel-700/25">
           Professional
         </div>
         
         {/* Bottom row */}
-        <div className="absolute bottom-[18%] left-[20%] text-6xl font-bold text-steel-300/50 dark:text-steel-700/20">
+        <div className="hidden md:block absolute bottom-[18%] left-[20%] text-6xl font-bold text-steel-300/50 dark:text-steel-700/20">
           Experience
         </div>
-        <div className="absolute bottom-[15%] right-[15%] text-6xl font-bold text-steel-300/50 dark:text-steel-700/20">
+        <div className="hidden md:block absolute bottom-[15%] right-[15%] text-6xl font-bold text-steel-300/50 dark:text-steel-700/20">
           Promising
         </div>
-        <div className="absolute bottom-[20%] left-[45%] text-5xl font-bold text-steel-300/50 dark:text-steel-700/25">
+        <div className="hidden md:block absolute bottom-[20%] left-[45%] text-5xl font-bold text-steel-300/50 dark:text-steel-700/25">
           Accountable
         </div>
       </div>
