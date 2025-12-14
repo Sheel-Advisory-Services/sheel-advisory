@@ -2,35 +2,51 @@ import type { Metadata } from "next";
 import { Inter, Urbanist } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
-  variable: '--font-geist-sans',
-  display: 'swap',
+  variable: "--font-geist-sans",
+  display: "swap"
 });
 
-const urbanist = Urbanist({ 
+const urbanist = Urbanist({
   subsets: ["latin"],
-  variable: '--font-display',
-  display: 'swap',
-  weight: ['300', '400', '500', '600', '700'],
+  variable: "--font-display",
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700"]
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sheel-advisory.vercel.app'),
   title: "Sheel Advisory | Owner Representative Services BC",
-  description: "Expert owner representative services for municipalities, regional districts, school districts, and non-profits. Reliable promising project and risk management strategies.",
-  keywords: "project management, risk management, owner representative, municipalities, public sector consulting",
+  description:
+    "Expert owner representative services for municipalities, regional districts, school districts, and non-profits. Reliable promising project and risk management strategies.",
+  keywords:
+    "project management, risk management, owner representative, municipalities, public sector consulting",
+  openGraph: {
+    title: "Sheel Advisory Services",
+    description: "Owner Representative Services for BC Public Sector",
+    images: ["/profile.png"],
+    url: "https://sheel-advisory.vercel.app"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sheel Advisory Services",
+    description: "Owner Representative Services for BC Public Sector",
+    images: ["/profile.png"]
+  }
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${urbanist.variable}`}>
-      <body className="font-sans antialiased">
-        {children}
-      </body>
+    <html
+      lang="en"
+      className={`${inter.variable} ${urbanist.variable}`}
+    >
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }
