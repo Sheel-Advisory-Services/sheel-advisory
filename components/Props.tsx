@@ -63,18 +63,18 @@ export default function Props() {
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Podcast Feature */}
           <div className="lg:col-span-2">
-            <div className="p-8 rounded-xl bg-gradient-to-br from-accent-blue/10 to-accent-cyan/10 border border-accent-blue/30 dark:border-accent-blue/20 h-full">
+            <div className="p-4 md:p-8 rounded-xl bg-gradient-to-br from-accent-blue/10 to-accent-cyan/10 border border-accent-blue/30 dark:border-accent-blue/20 h-full">
               <div className="flex items-start space-x-4 mb-6">
                 {/* Free icon from Bootstrap Icons */}
                 <svg
-                  className="w-10 h-10 text-steel-600 dark:text-steel-300 flex-shrink-0"
+                  className="w-8 h-8 md:w-10 md:h-10 text-steel-600 dark:text-steel-300 flex-shrink-0"
                   fill="currentColor"
                   viewBox="0 0 16 16"
                 >
                   <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25 25 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009l.496.008a64 64 0 0 1 1.51.048m1.39 1.081q.428.032.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a66 66 0 0 1 1.692.064q.491.026.966.06" />
                 </svg>
                 <div>
-                  <h3 className="text-2xl font-bold text-steel-500 dark:text-steel-50 mb-2">
+                  <h3 className="text-xl md:text-2xl font-bold text-steel-500 dark:text-steel-50 mb-2">
                     Public Procurement Podcast — Coming Soon!
                   </h3>
                   <p className="text-steel-700 dark:text-white mb-4">
@@ -111,7 +111,7 @@ export default function Props() {
           </div>
 
           {/* Props */}
-          <div className="p-8 rounded-xl bg-steel-50 dark:bg-steel-900/50 border border-steel-200 dark:border-steel-800/50">
+          <div className="p-4 md:p-8 rounded-xl bg-steel-50 dark:bg-steel-900/50 border border-steel-200 dark:border-steel-800/50">
             <h3 className="text-2xl font-bold text-steel-500 dark:text-steel-50 mb-6">
               Props
             </h3>
@@ -137,11 +137,11 @@ export default function Props() {
                       </div>
                     </div>
                     {prop.image && (
-                      <div className="w-42 h-24 flex-shrink-0 rounded-lg overflow-hidden border border-steel-300 dark:border-steel-700">
+                      <div className="w-24 sm:w-36 h-20 flex-shrink-0 rounded-lg overflow-hidden">
                         <img
                           src={prop.image}
                           alt={prop.title}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         />
                       </div>
                     )}
@@ -163,11 +163,11 @@ export default function Props() {
                       </div>
                     </div>
                     {prop.image && (
-                      <div className="w-42 h-24 flex-shrink-0 rounded-lg overflow-hidden border border-steel-300 dark:border-steel-700">
+                      <div className="w-24 sm:w-36 h-20 flex-shrink-0 rounded-lg overflow-hidden">
                         <img
                           src={prop.image}
                           alt={prop.title}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         />
                       </div>
                     )}
