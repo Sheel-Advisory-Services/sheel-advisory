@@ -26,15 +26,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sheel Advisory Services",
     description: "Owner Representative Services for BC Public Sector",
-    images: ["/profile.png"],
-    url: "https://sheel-advisory.vercel.app"
+    url: "https://sheeladvisory.ca",
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Sheel Advisory Services",
     description: "Owner Representative Services for BC Public Sector",
-    images: ["/profile.png"]
-  }
+  },
 };
 
 export default function RootLayout({
