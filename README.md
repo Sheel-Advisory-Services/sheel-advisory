@@ -2,6 +2,16 @@
 
 Professional owner representative services for BC's public sector - providing project and risk management expertise to municipalities, regional districts, school districts, and non-profits.
 
+## Copyright & License
+
+© 2025 Sheel Advisory Services. All rights reserved.
+
+This repository contains proprietary code for the Sheel Advisory Services website. The code is made publicly available for transparency and portfolio purposes only. Viewing and reviewing the code is permitted, but **copying, modification, distribution, or commercial use is strictly prohibited** without explicit written permission from Sheel Advisory Services.
+
+For inquiries regarding code use or licensing, please contact us through [sheeladvisory.ca](https://sheeladvisory.ca).
+
+---
+
 ## Tech Stack
 
 - **Framework:** Next.js 15 (App Router)
