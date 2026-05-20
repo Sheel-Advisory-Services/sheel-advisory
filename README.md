@@ -4,7 +4,7 @@ Professional owner representative services for BC's public sector - providing pr
 
 ## Copyright & License
 
-© 2025 Sheel Advisory Services. All rights reserved.
+© 2026 Sheel Advisory Services. All rights reserved.
 
 This repository contains proprietary code for the Sheel Advisory Services website. The code is made publicly available for transparency and portfolio purposes only. Viewing and reviewing the code is permitted, but **copying, modification, distribution, or commercial use is strictly prohibited** without explicit written permission from Sheel Advisory Services.
 
