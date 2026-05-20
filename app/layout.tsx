@@ -1,4 +1,3 @@
-import PasswordGate from "@/components/PasswordGate";
 import type { Metadata } from "next";
 import { Inter, Urbanist } from "next/font/google";
 import "./globals.css";
@@ -46,7 +45,7 @@ export default function RootLayout({
       className={`${inter.variable} ${urbanist.variable}`}
     >
       <body className="font-sans antialiased">
-        <PasswordGate>{children}</PasswordGate>
+        {children}
       </body>
     </html>
   );
