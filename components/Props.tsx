@@ -31,7 +31,7 @@ export default function Props() {
       title: "Best of Public Procurement 2017 Award",
       organization: "British Columbia Construction Association",
       year: "2017",
-      link: "https://bccassn.com/qa-chris-sheel-manager-of-procurement-services-city-of-vernon/"
+      link: "https://web.archive.org/web/20250424133307/https://bccassn.com/qa-chris-sheel-manager-of-procurement-services-city-of-vernon/"
     },
     {
       title: "Featured on Inside Public Procurement Podcast",
