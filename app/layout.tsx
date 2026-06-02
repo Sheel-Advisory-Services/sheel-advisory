@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     title: "Sheel Advisory Services",
     description: "Owner Representative Services for BC Public Sector",
   },
+  verification: {
+    google: "Eot1am3dltuYzgyTVjIKjNEZbnansbUJvRW5-SMYTHw",
+  },
 };
 
 export default function RootLayout({
