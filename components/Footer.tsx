@@ -29,7 +29,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#props" className="text-steel-600 dark:text-steel-400 hover:text-accent-blue dark:hover:text-accent-cyan transition-colors">
-                  Podcast
+                  Props
                 </a>
               </li>
               <li>
