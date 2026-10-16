@@ -77,6 +77,6 @@ Environment variables are configured in Vercel dashboard.
 - EmailJS contact form integration
 - Individual client detail pages
 - Professional certifications with external links
-- Props & Publications section (podcast feature hidden via a flag in `Props.tsx`)
+- Props & Publications section
 - Back-to-top button
 - LinkedIn integration
