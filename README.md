@@ -14,7 +14,7 @@ For inquiries regarding code use or licensing, please contact us through [sheela
 
 ## Tech Stack
 
-- **Framework:** Next.js 15 (App Router)
+- **Framework:** Next.js 16 (App Router)
 - **Styling:** Tailwind CSS
 - **Icons:** Bootstrap Icons, Heroicons
 - **Forms:** EmailJS
@@ -26,6 +26,7 @@ sheel-advisory/
 ├── app/                          # Next.js app directory
 │   ├── layout.tsx               # Root layout
 │   ├── page.tsx                 # Home page
+│   ├── sitemap.ts               # Sitemap
 │   ├── municipalities/          # Client detail pages
 │   ├── regional-districts/
 │   ├── school-districts/
@@ -36,7 +37,8 @@ sheel-advisory/
 │   ├── Services.tsx
 │   ├── TargetClients.tsx
 │   ├── About.tsx
-│   ├── Props.tsx                # Podcast & Props section
+│   ├── Props.tsx                # Props & Publications section
+│   ├── Testimonials.tsx         # Currently hidden on the home page
 │   ├── Contact.tsx
 │   ├── Footer.tsx
 │   ├── ThemeToggle.tsx
@@ -75,6 +77,6 @@ Environment variables are configured in Vercel dashboard.
 - EmailJS contact form integration
 - Individual client detail pages
 - Professional certifications with external links
-- Podcast & recognition section
+- Props & Publications section (podcast feature hidden via a flag in `Props.tsx`)
 - Back-to-top button
 - LinkedIn integration
