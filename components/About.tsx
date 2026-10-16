@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function About() {
   return (
     <section id="about" className="pt-32 pb-16 bg-white dark:bg-steel-950">
@@ -76,6 +78,24 @@ export default function About() {
                     </a>
                   </li>
                 </ul>
+              </div>
+
+              {/* Administration Manager */}
+              <div className="mt-8 pt-8 border-t border-steel-300 dark:border-steel-800/50 flex flex-col-reverse sm:flex-row sm:items-center gap-6">
+                <div>
+                  <h4 className="text-base font-bold text-steel-700 dark:text-steel-300">Lucia</h4>
+                  <p className="text-sm text-steel-700 dark:text-steel-400 mb-3">Administration Manager</p>
+                  <p className="text-steel-600 dark:text-steel-300 leading-relaxed">
+                    Lucia is the Administration Manager at Sheel Advisory Services. She brings a service-first approach and a keen eye for detail to the day-to-day operations, keeping things organized and client communication responsive.
+                  </p>
+                </div>
+                <Image
+                  src="/lucia.jpg"
+                  alt="Lucia, Administration Manager"
+                  width={128}
+                  height={128}
+                  className="w-32 h-32 shrink-0 rounded-2xl object-cover border border-steel-300 dark:border-steel-700 mx-auto sm:mx-0"
+                />
               </div>
             </div>
           </div>
